@@ -17,7 +17,7 @@ plot(critical_y, critical_x, '-o', 'Color', 'b', 'MarkerSize', 4, ...
     'MarkerFaceColor','b', 'LineWidth', 2);
 
 %% Plot simulation phase points
-load('phase_points2.mat')
+load('phase_points.mat')
 color_homo  = [31, 119, 180] / 255;  
 color_two   = [255, 127, 14] / 255;  
 color_three = [214, 39, 40] / 255;  
