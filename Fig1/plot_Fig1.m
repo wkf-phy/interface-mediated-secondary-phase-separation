@@ -22,7 +22,6 @@ C3 = [18, 22, 20] / 255; % phi3: dark background
 target_times = [0, 4000, 10000, 30000];
 num_cols = length(target_times);
 
-% 创建画布
 figure('Name', 'Time evolution', 'Position', [100, 100, 350*num_cols, 600]);
 
 % Layout in normalized figure coordinates
