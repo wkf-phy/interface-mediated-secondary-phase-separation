@@ -65,13 +65,10 @@ No GPU or other non-standard hardware is required.
 3. Open MATLAB and set the current folder to the directory containing
    the script you wish to run.
 
-The repository contains MATLAB source files and does not require
-compilation or a separate software installation step.
-
-Once MATLAB and the required toolboxes are installed and the repository
-has been downloaded, setup consists only of extracting the files and
-selecting the appropriate working folder. The time required depends
-on download speed and file extraction performance.
+No compilation or separate installation is required. With MATLAB
+and the required toolboxes already installed, downloading and
+extracting the repository and selecting the working folder
+typically takes less than 1 minute, depending on network speed.
 
 Keep the supplied data files and supporting function folders in their
 original locations.
@@ -108,9 +105,11 @@ The script uses the supplied initial-condition file
 `phi1_phi3_equilibrium.mat` and supporting functions in the `ccode`
 subfolder.
 
-**Expected behavior:** The script evolves the ternary concentration
-fields from the supplied initial condition using the parameters
-specified in the script.
+**Expected output:** A file named `Fig1_data.mat` is saved in the
+current folder. 
+
+The simulation output is separate from the precomputed
+`Fig1_dynamics_snapshots.mat` file used by the plotting demo.
 
 **Expected runtime:** Approximately 2–3 minutes on the authors'
 standard desktop computer.
